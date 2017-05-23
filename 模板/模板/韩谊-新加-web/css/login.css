@@ -1,0 +1,49 @@
+.login-top{ height:115px;}
+.login-top .bd{ padding-top:20px;}
+.login-top .bd .h3{ font-size:32px; line-height:74px; padding:0 40px;}
+
+.reg .login-top{ background:#efedf7; border-bottom:2px solid #774496}
+
+.login-foot{ height:140px; text-align:center}
+.login-foot .bd{ padding-top:35px;}
+.login-foot .login-nav{ margin-bottom:30px;}
+.login-foot .login-nav a{ font-size:16px;}
+.login-foot .login-nav span{ padding:0 60px;}
+.login-foot .login-bq{ line-height:24px;}
+
+.login-main{ height:605px; overflow:hidden; position:relative;}
+.login-main .bd{ height:100%; width:1920px; position:absolute; z-index:9; left:50%; margin-left:-960px;top:0; text-align:center}
+.login-box{ height:470px;position:absolute; z-index:10; left:50%; margin-left:-605px;top:43px; }
+.login{ height:420px; width:405px; background:#fff; padding:25px;}
+.login .mt{ height:27px; line-height:27px; margin-bottom:5px;}
+.login .mt h1{ font-size:20px; font-weight:bold}
+.login .mt .regist-link{ font-size:16px; color:#601986}
+.login .msg-wrap { background:#fff7d3; border:1px solid #ffe781; height:28px; line-height:28px; font-size:14px; padding:0 20px; margin-bottom:20px}
+.login-form li{ height:50px; margin-bottom:27px; position:relative;border: 1px solid #b5b5b5;}
+.login-form li label{position: absolute; z-index: 3; top: 0px; left: 0px; width: 50px; height: 50px; border-right: 1px solid #b5b5b5;}
+.login-form li .itxt{line-height: 18px; height: 18px; border: 0; padding: 16px 0 16px 55px; width: 340px; float: none; overflow: hidden; font-size: 14px;}
+.login-form li.name label{ background:url(../images/ico-name.gif) no-repeat center}
+.login-form li.nloginpwd label{ background:url(../images/ico-nloginpwd.gif) no-repeat center}
+.item-fore3{ height:20px; line-height:20px; margin-bottom:20px;}
+.item-fore3 input{ vertical-align:middle; margin-right:5px;}
+.login-btn .btn{ height:46px; line-height:46px; color:#fff; font-size:20px; text-align:center; background:#6b4185; border:1px solid #55346a; cursor:pointer; width:100%; font-family:"微软雅黑"}
+.coagent h5{ font-size:16px; color:#999; margin-bottom:10px;}
+.coagent span{ padding:0 15px;}
+
+.reg .login-main{ height:504px;}
+.reg-box {height:504px;position:absolute; z-index:10; left:50%; margin-left:-605px;top:0px; }
+.reg-form{ width:547px; padding:25px; padding-right:190px; padding-bottom:0; padding-top:70px; height:434px; margin:0 auto; background:url(../images/reg-form.jpg) no-repeat center top;}
+.reg-form .mt{ height:25px; line-height:25px;}
+.reg-form .mt h3{ font-size:25px; font-weight:bold; color:#774496}
+.reg-form .mt span{ font-size:15px;}
+.reg-form .mt span a{ font-size:15px; color:#774496}
+.reg-form li{ height:30px; margin-bottom:22px; line-height:30px;}
+.reg-form li label{ width:90px; text-align:right; color:#666666; display:block; float:left;}
+.reg-form li .iput{ height:27px; line-height:18px; padding:5px; border:1px solid #bdbacc; background:#fff; display:block; float:left}
+.reg-form li .w-1{ width:444px;}
+.reg-form li .w-2{ width:274px;}
+.reg-form .yz-m{ padding-left:20px;}
+.reg-form .yz-m img{ display:block; cursor:pointer; height:30px;}
+.reg-form  .dx-jy a{ display:block; background:#aaaaaa; color:#fff; text-align:center; height:30px; line-height:30px; width:150px;}
+.reg-form  .yd{ vertical-align:middle; margin-right:5px;}
+.reg-form  .btn{ background:#774496; border:none; width:270px; text-align:center; height:36px; line-height:36px; font-size:16px; font-family:"微软雅黑"; color:#fff; cursor:pointer}

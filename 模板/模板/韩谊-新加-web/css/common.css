@@ -1,0 +1,78 @@
+.cente .hy-toolbar{ background:#f8f8f8}
+.cente .hy-header{ background:#784497}
+.cente .center-logo{ width:308px;}
+.cente .center-logo a{ display:block; color:#fff; margin-right:10px;}
+.cente .center-logo .link1{ font-size:24px; padding-left:5px; padding-top:25px; margin-bottom:10px;}
+.cente .center-logo .link2{ font-size:14px; padding:3px 10px; border:1px solid #fff}
+.cente .navitems{ height:40px; line-height:40px; padding:41px 55px;}
+.cente .navitems li{ float:left; width:100px; text-align:center; font-size:16px; color:#fff}
+.cente .navitems li a{ font-size:16px; color:#fff}
+.cente .navitems .dt{ position:relative}
+.cente .navitems .dt.on{ background:#fff; color:#333; border:1px solid #e5e5e5; border-bottom:none; z-index:9}
+.cente .navitems .dt .dd{ display:block; position:absolute; left:-1px; right:-1px;top:35px; background:#fff; border:1px solid #e5e5e5; border-top:none; z-index:9}
+.cente .navitems .dt .dd{ display:none}
+.cente .navitems .dt .dd a{ font-size:14px; color:#333; display:block; line-height:50px;}
+.cente .navitems .dt .dd a:hover{ background:#e5e5e5}
+
+.cente .nav-r{ width:350px; padding-top:41px;}
+.cente .nav-r .hy-cart{ position:inherit}
+.cente .nav-r   .search-keyword{ padding:4px; width:130px; display:block; border:1px solid #e0d3e7; border-right:none; background:#fff; height:30px; line-height:30px;}
+.cente .nav-r   .btn{ height:40px;width:47px; border:1px solid #e0d3e7; display:block; background:url(../images/ico-018.png) no-repeat center; cursor:pointer }
+
+.bread_crumbs{ height:50px; line-height:50px; font-size:14px;}
+.bread_crumbs a{ font-size:14px;}
+.bread_crumbs em{ padding:0 5px;}
+
+
+.content .sub{ width:148px; background:#fbfbfb; border:1px solid #f3f3f3} 
+.content .t-x{ padding:14px;}
+.content .t-x .box{ position:relative; width:120px; height:120px;}
+.content .t-x .box a{ display:block; position:absolute; text-align:center; color:#fff; background:#333; height:25px; line-height:25px; bottom:0; left:0; right:0; z-index:9;filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;}
+.content .nav-list	h3{ display:block; height:28px; line-height:28px; color:#fff; background:#8f5eac; font-size:14px; cursor:pointer}
+.content .nav-list	h3 a{color:#fff;font-size:14px;}
+.content .nav-list	h3 em{ display:block; width:12px; height:28px; background:url(../images/ico-n-jia.png) no-repeat center}
+.content .nav-list	h3.on em{background:url(../images/ico-n-jian.png) no-repeat center}
+.content .nav-list .sub-list { display:none}
+.content .nav-list .sub-list li a{ display:block; height:39px; line-height:39px; background:#fbfbfb; padding:0 10px; font-size:14px; border-top:1px dashed #ededed}
+.content .nav-list .sub-list li a:hover,.content .nav-list .sub-list li.on a{ background:#fff; color:#936cc8;}
+
+.cn-main{ width:1050px;}
+.cn-main .tis{ padding:3px 10px; background:#fef8de; color:#e7211d; border:1px solid #f2e6b4}
+.cn-main .hd{ height:40px; line-height:40px; border-bottom:1px solid #f3f3f3}
+.cn-main .hd li{ float:left; padding:0 20px; font-size:14px;}
+.cn-main .hd li a{ font-size:14px;}
+.cn-main .hd li.on{ border-bottom:2px solid #764792;}
+.cn-main .hd li.on a{ color:#764792}
+.cn-main .th{ height:40px; line-height:40px; font-size:14px; color:#fff; padding:0 20px; background:#8f5eac}
+.cn-main .th li{ float:left}
+.cn-main .td{ padding:10px 0; background:#fff;}
+.cn-main .td li{ height:132px; padding:0 20px; padding-bottom:10px; border-bottom:1px dotted #ededed}
+.cn-main .td .shop{ height:38px; line-height:38px; border:1px solid #f3f3f3; background:#fbfbfb; padding:0 20px;}
+.cn-main .td .shop span{ padding-right:25px;}
+.cn-main .td .shop .order-shop{ padding-left:20px;}
+.oder-xq{ padding-top:10px; height:80px;}
+.oder-xq .p-goods{ border-right:1px solid #e8e8e8; height:80px;}
+.oder-xq .p-goods .img{ margin-right:10px;}
+.oder-xq .p-goods .txt{ text-align:left; width:260px; line-height:24px}
+.oder-xq .p-quantity{ border-right:1px solid #e8e8e8; height:80px; line-height:80px;}
+.oder-xq .p-yh{ border-right:1px solid #e8e8e8; height:80px; line-height:80px}
+.oder-xq .p-price{ border-right:1px solid #e8e8e8; height:80px; line-height:80px;}
+.oder-xq .p-zt{ border-right:1px solid #e8e8e8; height:65px; padding-top:15px; line-height:24px}
+.oder-xq .p-zt a{ color:#b454ec}
+.oder-xq .p-cz{  height:65px; padding-top:15px; line-height:24px;}
+.oder-xq .p-cz a{ color:#b454ec}
+.cn-main .w-1{ width:358px; text-align:center}
+.cn-main .w-2{ width:120px;text-align:center}
+.cn-main .w-3{ width:120px;text-align:center}
+.cn-main .w-4{ width:140px;text-align:center}
+.cn-main .w-5{ width:130px;text-align:center}
+.cn-main .w-6{ width:130px;text-align:center}
+
+.pages{ padding:10px; text-align:right;}
+.pages a,.pages span{ display:inline-block; *display:inline;*zoom:1; height:20px; line-height:20px;}
+.pages span{ margin:0 10px;}
+.pages span i{ color:#f2061c}
+.pages a{ width:18px; height:18px; border:1px solid #cfcfd1; text-align:center; line-height:18px; font-family:"宋体";border-radius:2px;}

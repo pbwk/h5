@@ -1,0 +1,680 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>供货商</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/ghs.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div class="head">
+	<div class="wrapper">
+    	<div class="gh_logo"><a href="#"><img src="images/gh-logo.png" /></a><h1>商家后台</h1><a href="#" class="gh_fh">返回韩谊首页</a></div>
+        <div class="gh_nav">
+        	<ul>
+            	<li><a href="#">首页</a></li>
+                <li><a href="#">商品</a></li>
+                <li><a href="#">店铺</a></li>
+                <li><a href="#">交易</a></li>
+                <li><a href="#">营销</a></li>
+                <li><a href="#">系统</a></li>
+            </ul>
+        </div>
+        <div class="gh_zh">欢迎您： <i>CC韩妆</i><a href="#">［退出］</a><a href="#">［修改密码］</a></div>
+    </div>
+</div>
+<div class="gh_cz">
+	<div class="wrapper">
+    	<a href="#"><h3>快接操作</h3></a>
+        <ul>
+        	<li><a href="#" class="on">发布商品</a></li>
+            <li><a href="#">商品管理</a></li>
+            <li><a href="#">评价管理</a></li>
+            <li><a href="#">客服管理</a></li>
+            <li><a href="#">操作日志</a></li>
+            <li><a href="#">佣金结算</a></li>
+            <li><a href="#">运费模板</a></li>
+        </ul>
+        <a href="#" class="gh_tj"></a>
+    </div>
+</div>
+<div class="main">
+	<div class="wrapper">
+		<h3 class="gh_dhcd">您当前的位置：<a href="#">首页</a> > <a href="#">店铺管理</a> >  <a href="#">店铺主广告</a></h3>
+        <div class="gh_nrq">
+        	<div class="gh_czcd">
+           	  <h1>供货商</h1>
+                <div class="gh_dhks">
+               	  <ul>
+                    	<li class="tou">商品管理</li>
+                        <li><a href="#">发布商品</a></li>
+                        <li><a href="#">商品列表</a></li>
+                        <li><a href="#">商品分类</a></li>
+                        <li><a href="#">商品咨询</a></li>
+                    </ul>
+                    <ul>
+                    	<li class="tou">店铺管理</li>
+                        <li><a href="#">店铺基本设置</a></li>
+                        <li><a href="#">店铺导航</a></li>
+                        <li><a href="#">店铺主广告</a></li>
+                        <li><a href="#">店铺文章</a></li>
+                        <li><a href="#">店铺模板选择</a></li>
+                    </ul>
+                    <ul>
+                    	<li class="tou">佣金管理</li>
+                        <li><a href="#">未处理佣金列表</a></li>
+                        <li><a href="#">已完结佣金列表</a></li>
+                    </ul>
+                    <ul>
+                    	<li class="tou">交易管理</li>
+                        <li><a href="#">订单管理</a></li>
+                        <li><a href="#">退款处理</a></li>
+                        <li><a href="#">交易投诉</a></li>
+                        <li><a href="#">评价管理</a></li>
+                        <li><a href="#">运费模板</a></li>
+                    </ul>
+                    <ul>
+                    	<li class="tou">营销活动</li>
+                        <li><a href="#">促销活动</a></li>
+                        <li><a href="#">限时活动</a></li>
+                    </ul>
+                    <ul>
+                    	<li class="tou">系统设置</li>
+                        <li><a href="#">子帐号</a></li>
+                        <li><a href="#">操作日志</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="gh_right">
+            	<div class="zgg-bt">
+                	<p class="on">分派权限</p>
+                    <input type="button" value="管理员列表 " class="gh_tjtp" />
+                </div>
+                <div class="fpqx_nr">
+                  <div class="list-div">
+                    <table cellspacing="0" cellpadding="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td width="118" valign="top" class="first-cell"><input name="chkGroup" type="checkbox" value="checkbox" class="checkbox">
+                            商品管理 </td>
+                          <td><div style="width:200px;float:left;">
+                              <label for="goods_manage">
+                              <input type="checkbox" name="action_code[]" value="goods_manage" id="goods_manage" class="checkbox"  >
+                              商品添加/编辑</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="remove_back">
+                                <input type="checkbox" name="action_code[]" value="remove_back" id="remove_back" class="checkbox"  >
+                                商品删除/恢复</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="cat_manage">
+                                <input type="checkbox" name="action_code[]" value="cat_manage" id="cat_manage" class="checkbox" >
+                                分类添加/编辑</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="cat_drop">
+                                <input type="checkbox" name="action_code[]" value="cat_drop" id="cat_drop" class="checkbox" >
+                                分类转移/删除</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="attr_manage">
+                                <input type="checkbox" name="action_code[]" value="attr_manage" id="attr_manage" class="checkbox" >
+                                商品属性管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="brand_manage">
+                                <input type="checkbox" name="action_code[]" value="brand_manage" id="brand_manage" class="checkbox" >
+                                商品品牌管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="comment_priv">
+                                <input type="checkbox" name="action_code[]" value="comment_priv" id="comment_priv" class="checkbox" >
+                                用户评论管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="tag_manage">
+                                <input type="checkbox" name="action_code[]" value="tag_manage" id="tag_manage" class="checkbox" >
+                                标签管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="goods_type">
+                                <input type="checkbox" name="action_code[]" value="goods_type" id="goods_type" class="checkbox" >
+                                商品类型</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="goods_auto">
+                                <input type="checkbox" name="action_code[]" value="goods_auto" id="goods_auto" class="checkbox" >
+                                商品自动上下架</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="virualcard">
+                                <input type="checkbox" name="action_code[]" value="virualcard" id="virualcard" class="checkbox" >
+                                虚拟卡管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="picture_batch">
+                                <input type="checkbox" name="action_code[]" value="picture_batch" id="picture_batch" class="checkbox" >
+                                图片批量处理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="goods_export">
+                                <input type="checkbox" name="action_code[]" value="goods_export" id="goods_export" class="checkbox" >
+                                商品批量导出</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="goods_batch">
+                                <input type="checkbox" name="action_code[]" value="goods_batch" id="goods_batch" class="checkbox" >
+                                商品批量上传/修改</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="gen_goods_script">
+                                <input type="checkbox" name="action_code[]" value="gen_goods_script" id="gen_goods_script" class="checkbox" >
+                                生成商品代码</label>
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td width="118" valign="top" class="first-cell"><input name="chkGroup" type="checkbox" value="checkbox" class="checkbox">
+                            文章管理 </td>
+                          <td><div style="width:200px;float:left;">
+                              <label for="article_cat">
+                              <input type="checkbox" name="action_code[]" value="article_cat" id="article_cat" class="checkbox" >
+                              文章分类管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="article_manage">
+                                <input type="checkbox" name="action_code[]" value="article_manage" id="article_manage" class="checkbox">
+                                文章内容管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="shopinfo_manage">
+                                <input type="checkbox" name="action_code[]" value="shopinfo_manage" id="shopinfo_manage" class="checkbox">
+                                网店信息管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="shophelp_manage">
+                                <input type="checkbox" name="action_code[]" value="shophelp_manage" id="shophelp_manage" class="checkbox">
+                                网店帮助管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="vote_priv">
+                                <input type="checkbox" name="action_code[]" value="vote_priv" id="vote_priv" class="checkbox">
+                                在线调查管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="article_auto">
+                                <input type="checkbox" name="action_code[]" value="article_auto" id="article_auto" class="checkbox">
+                                文章自动发布</label>
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td width="118" valign="top" class="first-cell"><input name="chkGroup" type="checkbox" value="checkbox"  class="checkbox">
+                            会员管理 </td>
+                          <td><div style="width:200px;float:left;">
+                              <label for="feedback_priv">
+                              <input type="checkbox" name="action_code[]" value="feedback_priv" id="feedback_priv" class="checkbox" >
+                              会员留言管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="integrate_users">
+                                <input type="checkbox" name="action_code[]" value="integrate_users" id="integrate_users" class="checkbox" >
+                                会员数据整合</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="sync_users">
+                                <input type="checkbox" name="action_code[]" value="sync_users" id="sync_users" class="checkbox">
+                                同步会员数据</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="users_manage">
+                                <input type="checkbox" name="action_code[]" value="users_manage" id="users_manage" class="checkbox">
+                                会员管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="users_drop">
+                                <input type="checkbox" name="action_code[]" value="users_drop" id="users_drop" class="checkbox">
+                                会员删除</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="user_rank">
+                                <input type="checkbox" name="action_code[]" value="user_rank" id="user_rank" class="checkbox">
+                                会员等级管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="surplus_manage">
+                                <input type="checkbox" name="action_code[]" value="surplus_manage" id="surplus_manage" class="checkbox" >
+                                会员余额管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="account_manage">
+                                <input type="checkbox" name="action_code[]" value="account_manage" id="account_manage" class="checkbox">
+                                会员账户管理</label>
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td width="118" valign="top" class="first-cell"><input name="chkGroup" type="checkbox" value="checkbox"  class="checkbox">
+                            权限管理 </td>
+                          <td><div style="width:200px;float:left;">
+                              <label for="template_manage">
+                              <input type="checkbox" name="action_code[]" value="template_manage" id="template_manage" class="checkbox">
+                              模板管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="admin_manage">
+                                <input type="checkbox" name="action_code[]" value="admin_manage" id="admin_manage" class="checkbox">
+                                管理员添加/编辑</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="admin_drop">
+                                <input type="checkbox" name="action_code[]" value="admin_drop" id="admin_drop" class="checkbox">
+                                删除管理员</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="allot_priv">
+                                <input type="checkbox" name="action_code[]" value="allot_priv" id="allot_priv" class="checkbox">
+                                分派权限</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="logs_manage">
+                                <input type="checkbox" name="action_code[]" value="logs_manage" id="logs_manage" class="checkbox">
+                                管理日志列表</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="logs_drop">
+                                <input type="checkbox" name="action_code[]" value="logs_drop" id="logs_drop" class="checkbox">
+                                删除管理日志</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="agency_manage">
+                                <input type="checkbox" name="action_code[]" value="agency_manage" id="agency_manage" class="checkbox" >
+                                办事处管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="role_manage">
+                                <input type="checkbox" name="action_code[]" value="role_manage" id="role_manage" class="checkbox" >
+                                角色管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="cangk_manage">
+                                <input type="checkbox" name="action_code[]" value="cangk_manage" id="cangk_manage" class="checkbox">
+                                仓库管理</label>
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td width="118" valign="top" class="first-cell"><input name="chkGroup" type="checkbox" value="checkbox"  class="checkbox">
+                            系统设置 </td>
+                          <td><div style="width:200px;float:left;">
+                              <label for="shop_config">
+                              <input type="checkbox" name="action_code[]" value="shop_config" id="shop_config" class="checkbox" >
+                              商店设置</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="ship_manage">
+                                <input type="checkbox" name="action_code[]" value="ship_manage" id="ship_manage" class="checkbox">
+                                配送方式管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="payment">
+                                <input type="checkbox" name="action_code[]" value="payment" id="payment" class="checkbox">
+                                支付方式管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="shiparea_manage">
+                                <input type="checkbox" name="action_code[]" value="shiparea_manage" id="shiparea_manage" class="checkbox">
+                                配送区域管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="area_manage">
+                                <input type="checkbox" name="action_code[]" value="area_manage" id="area_manage" class="checkbox">
+                                地区列表管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="friendlink">
+                                <input type="checkbox" name="action_code[]" value="friendlink" id="friendlink" class="checkbox" >
+                                友情链接管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="db_backup">
+                                <input type="checkbox" name="action_code[]" value="db_backup" id="db_backup" class="checkbox">
+                                数据备份</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="db_renew">
+                                <input type="checkbox" name="action_code[]" value="db_renew" id="db_renew" class="checkbox" >
+                                数据恢复</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="flash_manage">
+                                <input type="checkbox" name="action_code[]" value="flash_manage" id="flash_manage" class="checkbox" >
+                                首页主广告管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="navigator">
+                                <input type="checkbox" name="action_code[]" value="navigator" id="navigator" class="checkbox">
+                                自定义导航栏</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="cron">
+                                <input type="checkbox" name="action_code[]" value="cron" id="cron" class="checkbox" >
+                                计划任务</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="affiliate">
+                                <input type="checkbox" name="action_code[]" value="affiliate" id="affiliate" class="checkbox" >
+                                推荐设置</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="affiliate_ck">
+                                <input type="checkbox" name="action_code[]" value="affiliate_ck" id="affiliate_ck" class="checkbox">
+                                分成管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="sitemap">
+                                <input type="checkbox" name="action_code[]" value="sitemap" id="sitemap" class="checkbox">
+                                站点地图管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="file_priv">
+                                <input type="checkbox" name="action_code[]" value="file_priv" id="file_priv" class="checkbox" >
+                                文件权限检验</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="file_check">
+                                <input type="checkbox" name="action_code[]" value="file_check" id="file_check" class="checkbox" >
+                                文件校验</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="reg_fields">
+                                <input type="checkbox" name="action_code[]" value="reg_fields" id="reg_fields" class="checkbox" >
+                                会员注册项管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="shop_authorized">
+                                <input type="checkbox" name="action_code[]" value="shop_authorized" id="shop_authorized" class="checkbox" >
+                                授权证书</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="webcollect_manage">
+                                <input type="checkbox" name="action_code[]" value="webcollect_manage" id="webcollect_manage" class="checkbox">
+                                网罗天下管理</label>
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td width="118" valign="top" class="first-cell"><input name="chkGroup" type="checkbox" value="checkbox"  class="checkbox">
+                            订单管理 </td>
+                          <td><div style="width:200px;float:left;">
+                              <label for="order_os_edit">
+                              <input type="checkbox" name="action_code[]" value="order_os_edit" id="order_os_edit" class="checkbox" >
+                              编辑订单状态</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="order_ps_edit">
+                                <input type="checkbox" name="action_code[]" value="order_ps_edit" id="order_ps_edit" class="checkbox" >
+                                编辑付款状态</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="order_ss_edit">
+                                <input type="checkbox" name="action_code[]" value="order_ss_edit" id="order_ss_edit" class="checkbox" >
+                                编辑发货状态</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="order_edit">
+                                <input type="checkbox" name="action_code[]" value="order_edit" id="order_edit" class="checkbox">
+                                添加编辑订单</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="order_view">
+                                <input type="checkbox" name="action_code[]" value="order_view" id="order_view" class="checkbox"  >
+                                查看未完成订单</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="order_view_finished">
+                                <input type="checkbox" name="action_code[]" value="order_view_finished" id="order_view_finished" class="checkbox"  >
+                                查看已完成订单</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="repay_manage">
+                                <input type="checkbox" name="action_code[]" value="repay_manage" id="repay_manage" class="checkbox" >
+                                退款申请管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="booking">
+                                <input type="checkbox" name="action_code[]" value="booking" id="booking" class="checkbox" >
+                                缺货登记管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="sale_order_stats">
+                                <input type="checkbox" name="action_code[]" value="sale_order_stats" id="sale_order_stats" class="checkbox" >
+                                订单销售统计</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="client_flow_stats">
+                                <input type="checkbox" name="action_code[]" value="client_flow_stats" id="client_flow_stats" class="checkbox" >
+                                客户流量统计</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="delivery_view">
+                                <input type="checkbox" name="action_code[]" value="delivery_view" id="delivery_view" class="checkbox"  >
+                                查看发货单</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="back_view">
+                                <input type="checkbox" name="action_code[]" value="back_view" id="back_view" class="checkbox"  >
+                                查看退货单</label>
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td width="118" valign="top" class="first-cell"><input name="chkGroup" type="checkbox" value="checkbox" class="checkbox">
+                            促销管理 </td>
+                          <td><div style="width:200px;float:left;">
+                              <label for="topic_manage">
+                              <input type="checkbox" name="action_code[]" value="topic_manage" id="topic_manage" class="checkbox">
+                              专题管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="snatch_manage">
+                                <input type="checkbox" name="action_code[]" value="snatch_manage" id="snatch_manage" class="checkbox" >
+                                夺宝奇兵</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="ad_manage">
+                                <input type="checkbox" name="action_code[]" value="ad_manage" id="ad_manage" class="checkbox" >
+                                广告管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="gift_manage">
+                                <input type="checkbox" name="action_code[]" value="gift_manage" id="gift_manage" class="checkbox" >
+                                赠品管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="card_manage">
+                                <input type="checkbox" name="action_code[]" value="card_manage" id="card_manage" class="checkbox">
+                                祝福贺卡</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="pack">
+                                <input type="checkbox" name="action_code[]" value="pack" id="pack" class="checkbox" >
+                                商品包装</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="bonus_manage">
+                                <input type="checkbox" name="action_code[]" value="bonus_manage" id="bonus_manage" class="checkbox" >
+                                红包管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="auction">
+                                <input type="checkbox" name="action_code[]" value="auction" id="auction" class="checkbox" >
+                                拍卖活动</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="group_by">
+                                <input type="checkbox" name="action_code[]" value="group_by" id="group_by" class="checkbox" >
+                                团购活动</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="favourable">
+                                <input type="checkbox" name="action_code[]" value="favourable" id="favourable" class="checkbox" >
+                                优惠活动</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="whole_sale">
+                                <input type="checkbox" name="action_code[]" value="whole_sale" id="whole_sale" class="checkbox" >
+                                批发管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="package_manage">
+                                <input type="checkbox" name="action_code[]" value="package_manage" id="package_manage" class="checkbox" >
+                                超值礼包</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="exchange_goods">
+                                <input type="checkbox" name="action_code[]" value="exchange_goods" id="exchange_goods" class="checkbox" >
+                                积分商城商品</label>
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td width="118" valign="top" class="first-cell"><input name="chkGroup" type="checkbox" value="checkbox"  class="checkbox">
+                            邮件管理 </td>
+                          <td><div style="width:200px;float:left;">
+                              <label for="attention_list">
+                              <input type="checkbox" name="action_code[]" value="attention_list" id="attention_list" class="checkbox" >
+                              关注管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="email_list">
+                                <input type="checkbox" name="action_code[]" value="email_list" id="email_list" class="checkbox">
+                                邮件订阅管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="magazine_list">
+                                <input type="checkbox" name="action_code[]" value="magazine_list" id="magazine_list" class="checkbox"  >
+                                杂志管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="view_sendlist">
+                                <input type="checkbox" name="action_code[]" value="view_sendlist" id="view_sendlist" class="checkbox"  >
+                                邮件队列管理</label>
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td width="118" valign="top" class="first-cell"><input name="chkGroup" type="checkbox" value="checkbox" class="checkbox">
+                            模板管理 </td>
+                          <td><div style="width:200px;float:left;">
+                              <label for="template_select">
+                              <input type="checkbox" name="action_code[]" value="template_select" id="template_select" class="checkbox" >
+                              模板选择</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="template_setup">
+                                <input type="checkbox" name="action_code[]" value="template_setup" id="template_setup" class="checkbox">
+                                模板设置</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="library_manage">
+                                <input type="checkbox" name="action_code[]" value="library_manage" id="library_manage" class="checkbox">
+                                库项目管理</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="lang_edit">
+                                <input type="checkbox" name="action_code[]" value="lang_edit" id="lang_edit" class="checkbox">
+                                语言项编辑</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="backup_setting">
+                                <input type="checkbox" name="action_code[]" value="backup_setting" id="backup_setting" class="checkbox">
+                                模板设置备份</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="mail_template">
+                                <input type="checkbox" name="action_code[]" value="mail_template" id="mail_template" class="checkbox">
+                                邮件模板管理</label>
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td width="118" valign="top" class="first-cell"><input name="chkGroup" type="checkbox" value="checkbox"  class="checkbox">
+                            数据库管理 </td>
+                          <td><div style="width:200px;float:left;">
+                              <label for="db_backup">
+                              <input type="checkbox" name="action_code[]" value="db_backup" id="db_backup" class="checkbox" >
+                              数据备份</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="db_renew">
+                                <input type="checkbox" name="action_code[]" value="db_renew" id="db_renew" class="checkbox">
+                                数据恢复</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="db_optimize">
+                                <input type="checkbox" name="action_code[]" value="db_optimize" id="db_optimize" class="checkbox">
+                                数据表优化</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="sql_query">
+                                <input type="checkbox" name="action_code[]" value="sql_query" id="sql_query" class="checkbox" >
+                                SQL查询</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="convert">
+                                <input type="checkbox" name="action_code[]" value="convert" id="convert" class="checkbox">
+                                转换数据</label>
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td width="118" valign="top" class="first-cell"><input name="chkGroup" type="checkbox" value="checkbox">
+                            短信管理 </td>
+                          <td><div style="width:200px;float:left;">
+                              <label for="sms_send">
+                              <input type="checkbox" name="action_code[]" value="sms_send" id="sms_send" class="checkbox">
+                              发送短信</label>
+                            </div></td>
+                        </tr>
+                        <tr>
+                          <td width="118" valign="top" class="first-cell"><input name="chkGroup" type="checkbox" value="checkbox"  class="checkbox">
+                            供货商管理 </td>
+                          <td><div style="width:200px;float:left;">
+                              <label for="suppliers_list">
+                              <input type="checkbox" name="action_code[]" value="suppliers_list" id="suppliers_list" class="checkbox">
+                              供货商列表</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="suppliers_levels">
+                                <input type="checkbox" name="action_code[]" value="suppliers_levels" id="suppliers_levels" class="checkbox" >
+                                供货商等级</label>
+                            </div>
+                            <div style="width:200px;float:left;">
+                              <label for="suppliers_jiesuan">
+                                <input type="checkbox" name="action_code[]" value="suppliers_jiesuan" id="suppliers_jiesuan" class="checkbox" >
+                                结算管理</label>
+                            </div></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+              </div>
+              <div class="fpqx_qxuan"><input type="checkbox" name="checkall" value="checkbox" class="checkbox">
+                            全选
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="submit" name="Submit" value=" 保存 " class="button"></div>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="banq">
+    <div class="wrapper">
+        <p class="bq_p1">
+           <a href="#">关于我们</a> <i></i> 
+           <a href="#">联系我们</a> <i></i>
+           <a href="#">人才招聘</a> <i></i>
+           <a href="#">商家入驻</a> <i></i>
+           <a href="#">广告服务</a> <i></i>
+           <a href="#">友情链接</a> <i></i>
+           <a href="#">销售联盟</a> <i></i>
+           <a href="#">English Site</a>
+        </p>
+        <p class="bq_p2">&copy;2015 All  rights reserved.    京ICP备15028059号－1</p>
+	</div>
+</div>
+</body>
+</html>
